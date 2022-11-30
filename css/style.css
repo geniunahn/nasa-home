@@ -16,8 +16,8 @@
 
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.3)
     ),
     url("../images/ISS_astronaut.jpg");
   background-repeat: no-repeat;
