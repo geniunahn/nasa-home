@@ -1,5 +1,11 @@
 /* style.css */
 
+@media screen and (max-width: 578px) {
+  nav {
+    background: #333;
+  }
+
+}
 .btn {
     white-space: nowrap;
 }
