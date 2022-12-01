@@ -1,5 +1,9 @@
 /* style.css */
 
+a {
+    text-decoration: none;
+}
+
 /* 모바일 배경처리 */
 @media screen and (max-width: 578px) {
   nav {
@@ -12,19 +16,30 @@
     white-space: nowrap;
 }
 
+section h2 {
+    font-weight: bold;
+}
+
+
 /* .container, .container-fluid {
     outline: 1px solid #000;
 } */
 
 #main-title {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-color: #ccc;
     background-image:
     linear-gradient(90deg, rgba(0, 0, 0, 0.918) 0%, rgba(255, 255, 255, 0) 100%), url(../images/ISS_astronaut.jpg);
     color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#main-title .title {
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
 }
 
 #main-title .title p {
@@ -43,13 +58,14 @@
 #community {
     background-color: #000;
     background-image: 
-        linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.1)),
+        linear-gradient(rgba(0,0,0, 1), rgba(0,0,0,0.2)),
         url('../images/cleveland_at_night.jpg');
-    /* background-size: cover; */
+    background-size: cover;
     /* 배경 고정 */
     background-repeat: no-repeat;
-    background-attachment: contain;
+    /* background-attachment: contain; */
     background-position: center top;
+    background-attachment: fixed;
 }
 
 .my-text-light {
