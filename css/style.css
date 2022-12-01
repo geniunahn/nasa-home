@@ -38,8 +38,6 @@ section h2 {
 
 #main-title .title {
     height: calc(100% - 90px);
-    display: flex;
-    flex-direction: column;
 }
 
 #main-title .title p {
