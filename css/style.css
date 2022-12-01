@@ -75,6 +75,35 @@ section h2 {
   color: #0b3d91;
 }
 
+/* fly with you 섹션 스타일입니다. */
+
+#fly {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+    url(../images/with-you-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fly_box {
+  display: block;
+  width: 100%;
+  position: relative;
+  /* outline: 3px solid #fff; */
+}
+
+.fly_box img {
+  width: 100%;
+}
+
+#fly a h4 {
+  width: 100%;
+  background-color: rgba(11, 61, 145, 0.8);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
 /* ---------- footer start ---------- */
 #footer {
   background: rgb(33, 33, 33);
