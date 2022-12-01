@@ -40,3 +40,15 @@
 } */
 
 
+#community {
+    background-image: url('../images/cleveland_at_night.jpg');
+    background-size: cover;
+}
+
+.my-text-light {
+    color: #98daf1;
+}
+
+.my-text-dark {
+    color: #0b3d91;
+}
