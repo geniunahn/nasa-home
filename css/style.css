@@ -41,8 +41,15 @@
 
 
 #community {
-    background-image: url('../images/cleveland_at_night.jpg');
-    background-size: cover;
+    background-color: #000;
+    background-image: 
+        linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.1)),
+        url('../images/cleveland_at_night.jpg');
+    /* background-size: cover; */
+    /* 배경 고정 */
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center top;
 }
 
 .my-text-light {
