@@ -1,7 +1,7 @@
 /* style.css */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* 모바일 배경처리 */
@@ -13,63 +13,98 @@ a {
 }
 
 .btn {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 section h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 /* .container, .container-fluid {
     outline: 1px solid #000;
 } */
 
 #main-title {
-    width: 100%;
-    height: 100vh;
-    background-color: #ccc;
-    background-image:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.918) 0%, rgba(255, 255, 255, 0) 100%), url(../images/ISS_astronaut.jpg);
-    color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.918) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url(../images/ISS_astronaut.jpg);
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #main-title .title {
-    height: calc(100% - 90px);
+  height: calc(100% - 90px);
 }
 
 #main-title .title p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #main-title .title {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 /* #main-title .title iframe {
     outline: 5px solid #fff;
 } */
 
-
 #community {
-    background-color: #000;
-    background-image: 
-        linear-gradient(rgba(0,0,0, 1), rgba(0,0,0,0.2)),
-        url('../images/cleveland_at_night.jpg');
-    background-size: cover;
-    /* 배경 고정 */
-    background-repeat: no-repeat;
-    /* background-attachment: contain; */
-    background-position: center top;
-    background-attachment: fixed;
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("../images/cleveland_at_night.jpg");
+  background-size: cover;
+  /* 배경 고정 */
+  background-repeat: no-repeat;
+  /* background-attachment: contain; */
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 .my-text-light {
-    color: #98daf1;
+  color: #98daf1;
 }
 
 .my-text-dark {
-    color: #0b3d91;
+  color: #0b3d91;
+}
+
+/* exploration */
+#exploration {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("../images/ex-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#exploration a {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#exploration a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#exploration a h4 {
+  width: 100%;
+  height: 50px;
+  background: rgba(11, 61, 145, 0.8);
+  word-break: keep-all;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
