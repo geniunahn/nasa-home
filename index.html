@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나사 글랜연구센터 한국 홈페이지</title>
+    <!-- 부트스트랩 CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- https://www1.grc.nasa.gov -->
+    <div id="main-title">
+      <header class="container pt-3">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">
+              <img
+                src="images/logo-nasa.svg"
+                alt="나사 글랜연구센터"
+                width="60"
+              />
+            </a>
+            <!-- 모바일 토글 버튼 -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 네비게이션 링크 -->
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >소개</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">글랜 우주센터</a></li>
+                    <li><a class="dropdown-item" href="#">연구소 현황</a></li>
+                    <li><a class="dropdown-item" href="#">글랜 히스토리</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >교육</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">교육내용</a></li>
+                    <li><a class="dropdown-item" href="#">인턴쉽</a></li>
+                    <li><a class="dropdown-item" href="#">우주인 되기</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">시설안내</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">항공역학</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">우주공학</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">연구</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="text"
+                  placeholder="검색어 입력"
+                />
+                <button class="btn btn-primary" type="button">
+                  <span>검색</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="title container">
+        <h1 class="display-4 mb-3">Shaping the world of tomorrow</h1>
+        <p>
+          기술 개발을 통해 우주를 향한 탐험을 발전시키고<br />
+          우주 여행의 혁명을 만들어 나갑니다
+        </p>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <!-- ratio로 영상비율을 유지하자! -->
+          <div class="ratio ratio-16x9 mt-5">
+            <iframe
+              class="mt-4 border border-3"
+              src="https://www.youtube.com/embed/BgF10YLYadk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <!-- col -->
+      </div>
+      <!-- title -->
+    </div>
+    <!-- main-title -->
+
+    <!-- community 소개 -->
+    <section id="community">
+      <div class="container py-5">
+        <h2 class="mb-4 my-text-light">자랑스러운 오하이오 커뮤니티</h2>
+        <div class="row">
+          <!-- 기본 2단, 중간(md)이상이면 4단 -->
+          <div class="col-6 col-md-3">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="images/27194656925_0eedc59044_h-300x300.jpg"
+                alt="1"
+              />
+              <h4 class="text-light h5 mt-3 text-center">오하이오 경제 혁신</h4>
+            </a>
+          </div>
+          <!-- col -->
+          <div class="col-6 col-md-3">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="images/27194668235_6bcc40da15_o-300x300.jpg"
+                alt="2"
+              />
+              <h4 class="text-light h5 mt-3 text-center">교육 프로그램</h4>
+            </a>
+          </div>
+          <!-- col -->
+          <div class="col-6 col-md-3">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="images/27389280410_4915f596bf_o-300x300.jpg"
+                alt="3"
+              />
+              <h4 class="text-light h5 mt-3 text-center">커뮤니티 이벤트</h4>
+            </a>
+          </div>
+          <!-- col -->
+          <div class="col-6 col-md-3">
+            <a href="#">
+              <img
+                class="img-fluid"
+                src="images/27667448395_a60c9c5e9f_b-1-300x300.jpg"
+                alt="4"
+              />
+              <h4 class="text-light h5 mt-3 text-center">
+                나사과학센터 방문하기
+              </h4>
+            </a>
+          </div>
+          <!-- col -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <section id="engage">
+      <div class="container bg-light py-5">
+        <h2 class="mb-4 my-text-dark ">우리에게 주목해 주세요</h2>
+        <div class="row">
+          <!-- 기본 2단, 중간(md)이상이면 4단 -->
+          <div class="col-6 col-md-3">
+            <a href="#">
+              <div class="box1 mb-3">
+                <img class="img-fluid" src="images/27667448395_a60c9c5e9f_b-1-300x300.jpg" alt="1">
+                <h4 class="text-light h5 mt-3 text-center">시설 견학</h4>
+              </div>
+              <p class="box2">글렌 투어는 교육과 엔터테인먼트의 독특한 조화입니다. 방문자는 미국의 연구 시설을 탐색하고 과학자와 엔지니어가 NASA의 항공 및 우주 프로그램을 위한 추진력, 전력 및 통신 기술을 개발하는 곳을 볼 수 있습니다.</p>
+            </a>
+          </div><!-- col -->
+          <div class="col-6 col-md-3 mb-3">
+            <a href="#">
+              <div class="box1">
+                <img class="img-fluid" src="images/27389280410_4915f596bf_o-300x300.jpg" alt="2">
+                <h4 class="text-light h5 mt-3 text-center">교육 프로그램</h4>
+              </div>
+              <p class="box2">우리는 국제적, 국가적, 지역적 수준에서 교육 프로그램을 제공함으로써 과학, 기술, 공학 및 수학 교육(STEM) 및 인적 네트워크를 발전시킵니다.</p>
+            </a>
+          </div><!-- col -->
+          <div class="col-6 col-md-3 mb-3">
+            <a href="#">
+              <div class="box1">
+                <img class="img-fluid" src="images/27194668235_6bcc40da15_o-300x300.jpg" alt="3">
+                <h4 class="text-light h5 mt-3 text-center">커뮤니티 이벤트</h4>
+              </div>
+              <p class="box2">우리는 여행 전시회를 통해 항공 및 우주 탐험의 즐거움을 기관이나 행사에 지원합니다. 우리는 오하이오, 인디애나, 일리노이, 미시간, 미네소타 및 위스콘신에서 NASA 봉사 활동 프로그램 및 행사를 진행하고 있습니다.</p>
+            </a>
+          </div><!-- col -->
+          <div class="col-6 col-md-3 mb-3">
+            <a href="#">
+              <div class="box1">
+                <img class="img-fluid" src="images/Banner-NGVC-300x300.jpg" alt="4">
+                <h4 class="text-light h5 mt-3 text-center">나사과학센터 방문하기</h4>
+              </div>
+                <p class="box2">오하이오 과학 센터의 방문자들은 센터에서 갤러리, 상호작용 가능한 전시물, 매혹적인 유물 및 놀라운 NASA 미디어를 통해 멋진 우주 경험을 할 수 있습니다.</p>
+            </a>
+          </div><!-- col -->
+        </div><!-- row -->
+      </div>
+    </section>
+
+
+    <!-- we are power소개 -->
+    <section id="exploration">
+      <div class="container py-5">
+        <h2 class="mb-4 my-text-light">우주 탐사에 모든 역량을 쏟고 있습니다</h2>
+        <div class="row">
+          <div class="col-6 col-md-4 mb-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img9.jpg" alt="유럽 서비스 모듈"><h4 class="text-light h5 mt-3 text-center">유럽 서비스 모듈</h4></a>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img10.jpg" alt="ISS연구 프로그램"><h4 class="text-light h5 mt-3 text-center">ISS연구 프로그램</h4></a>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img11.jpg" alt="행성탐사과학기술실"><h4 class="text-light h5 mt-3 text-center">행성탐사과학연구실(PESTO)</h4></a>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img12.jpg" alt="태양 전기 추진"><h4 class="text-light h5 mt-3 text-center">태양 전기 추진</h4></a>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img13.jpg" alt="우주 통신 및 항법"><h4 class="text-light h5 mt-3 text-center">우주 통신 및 항법(SCaN)</h4></a>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <a href="#"><img class="img-fluid" src="images/img14.png" alt="범용 스테이지 어댑터(미국)"><h4 class="text-light h5 mt-3 text-center">범용 스테이지 어댑터(USA)</h4></a>
+          </div>
+        </div><!-- row -->
+        <div class="row">
+          <div class="col text-center">
+            <button class="btn btn-outline-light rounded text-center mx-auto mt-5">
+              우주연구에 대해 자세히 알아보기
+            </button>
+          </div>
+        </div><!-- btn row -->
+      </div><!-- container -->
+    </section>
+
+
+    <!-- fly with you 섹션입니다. -->
+    <section id="fly">
+      <div class="container py-5">
+        <h2 class="mb-2 my-text-light">
+          당신이 여객기를 탈 때 우리가 함께 합니다
+        </h2>
+        <div class="row">
+          <div class="p-3 col-6 col-md-4 text-center">
+            <a href="#"
+            class="fly_box">
+              <img class="img-fluid" src="./images/with-you-img1.jpg" alt="1" />
+              <h4 class="p-3">빙결 연구</h4>
+            </a>
+          </div>
+          <div class="p-3 col-6 col-md-4 text-center">
+            <a href="#"
+            class="fly_box">
+              <img class="img-fluid" src="./images/with-you-img2.jpg" alt="1" />
+              <h4 class="p-3">경계층 흡입 추진</h4>
+            </a>
+          </div>
+          <div class="p-3 col-6 col-md-4 text-center">
+            <a href="#"
+            class="fly_box">
+              <img class="img-fluid" src="./images/with-you-img3.jpg" alt="1" />
+              <h4 class="p-3">전기 항공기 추진</h4>
+            </a>
+          </div>
+          <div class="p-3 col-6 col-md-4 text-center">
+            <a href="#"
+            class="fly_box">
+              <img class="img-fluid" src="./images/with-you-img4.png" alt="1" />
+              <h4 class="p-3">음향학 연구</h4>
+            </a>
+          </div>
+          <div class="p-3 col-6 col-md-4 text-center">
+            <a href="#"
+            class="fly_box">
+              <img class="img-fluid" src="./images/with-you-img5.png" alt="1" />
+              <h4 class="p-3">하이브리드 열효율 코어</h4>
+            </a>
+        </div>
+      </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <h2 class="p-3 btn btn-outline-light">
+              Learn more about our aeronautics research
+            </h2>
+          </div>
+        </div>
+
+    </section>
+
+
+    <!-- Expertise -->
+    <section
+      id="Expertise"
+      class="justify-content-center align-items-center"
+    >
+      <div class="container py-5">
+        <h2 class="my-text-dark">전문적인 지식</h2>
+        <div class="row mt-4">
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"> <h5 class="my-text-dark">우주 추진</h5></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"
+                  ><h5 class="my-text-dark">
+                      극한 재료
+                      <img
+                      src="./images/바로가기.png"
+                      alt="바로기가 아이콘"
+                    /></h5
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"><h5 class=" my-text-dark">항공기 추진</h5></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"><h5 class=" my-text-dark">우주 통신</h5></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"
+                  ><h5 class="mt-2 my-text-dark">
+                    힘
+                    <img
+                      src="./images/바로가기.png"
+                      alt="바로기가 아이콘"
+                    /></h5
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>
+                <a href="#"
+                  ><h5 class="mt-2 my-text-dark">
+                    우주 내 생물의학 연구
+                    <img src="./images/바로가기.png" alt="바로기가 아이콘" />
+                  </h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ---------- footer start ---------- -->
+    <footer id="footer">
+      <div class="container py-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 col-left">
+              <div class="footer-logo py-3">
+                <img
+                  src="images/logo-nasa.svg"
+                  alt="나사 글랜연구센터"
+                  width="80"
+                />
+                <span class="mx-3 mt-sm-3">National Aeronautics and Space Administration</span>
+              </div>
+              <div class="footer-box-left">
+                <p>
+                  NASA Official: Richard Kurak <br />
+                  Page Editor: Kelly Sands <br />
+                  Page Last Updated: October 17, 2022
+                </p>
+                <p>
+                  <span><a href="#" class="my-text-light">Privacy Policy</a></span>
+                  <span>|</span>
+                  <span><a href="#" class="my-text-light">No Fear Act</a></span>
+                  <span>|</span>
+                  <span><a href="#" class="my-text-light">FOIA</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-rigth">
+              <div class="footer-icon py-3">
+                <a href="#"><i class="bi bi-facebook"></i></a
+                >
+                <a href="#"><i class="bi bi-twitter"></i></a
+                >
+                <a href="#"><i class="bi bi-youtube"></i></a
+                >
+                <a href="#"><i class="bi bi-instagram"></i></a
+                >
+                <a href="#"><i class="bi bi-pinterest"></i></a
+                >
+              </div>
+              <div class="footer-box-right">
+                <h4>Glenn Research Center</h1>
+                <p>
+                  21000 Brookpark Road <br>
+                  Cleveland, OH 44135 <br>
+                  (216) 433-4000
+                </p>
+                <p>
+                  <span><a href="#" class="my-text-light">Contact Us</a></span>
+                  <span>|</span>
+                  <span><a href="#" class="my-text-light">nasa.gov/glenn</a></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------- footer end ---------- -->
+    <!-- 부트스트랩 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
